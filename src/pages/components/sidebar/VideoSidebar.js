@@ -19,7 +19,7 @@ function VideoSidebar({ likes, messages, shares }) {
                 className='videoSidebar__options'
                 onClick={handleLike}
             >
-                {liked ? <FavoriteIcon fontSize='large' /> : <FavoriteBorderIcon fontSize='large' />}
+                {liked ? <FavoriteIcon fontSize='large' color="error" /> : <FavoriteBorderIcon fontSize='large' />}
                 <p>{liked ? likes + 1 : likes}</p>
             </div>
             <div className='videoSidebar__options'>

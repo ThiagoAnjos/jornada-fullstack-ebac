@@ -46,3 +46,11 @@
     }
     
 }
+@media only screen and (max-width: 440px) {
+  .videoFooter{
+    bottom: 22%;
+  }
+  .videoFooterMusic__text{
+    width: 75%;
+  }
+}
